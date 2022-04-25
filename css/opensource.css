@@ -1,0 +1,106 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    clear: both;
+    float: left;
+    border: #052c17 3px solid;
+    border-radius: 10px;
+}
+
+#navbar{
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    position: sticky;
+    padding-bottom: 0.5%;
+}
+
+#navbar ul{
+    overflow: auto;
+} 
+
+.tabs{
+    color: black;
+    float: right;
+    margin-inline: 1%;
+    list-style: none;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tabs:hover{
+    background-color: rgb(189, 180, 180);
+}
+
+#welcome{
+    background-color: rgba(97, 54, 54, 0.267);
+    background-image: url('/images/b3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 25%;
+    color: aliceblue;
+    font-family: Raleway;
+}
+
+#project_name{
+    font-size: 800%;  
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+#project_description{
+    font-size: 250%;  
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+#Project_Info{
+    margin-top: 11%;
+    font-size: 180%;
+    text-align: center;
+}
+
+.goals{
+    width: 45%;
+    list-style: none;
+    float: left;
+    padding: 3px;
+    margin-inline: 25px;
+}
+
+.pngs{
+    height: 100px;
+    width: 100px;
+}
+
+#About_Us{
+    background-color: #F1F1F1;
+    margin-top: 600px;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#list2{
+    display: flex;
+}
+
+.members{
+    width: 30%;
+    list-style: none;
+    padding: 3px;
+    margin-inline: 25px;
+    border: black solid 2px;
+}

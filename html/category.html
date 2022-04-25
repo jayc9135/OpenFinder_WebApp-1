@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+
+  <link rel="stylesheet" href="/css/category.css">
+  <link rel="stylesheet" href="/css/carousel.css">
+
+  <title>Open Finder-Category</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <a href="index.html">
+          <img alt="logo" id="logo" /></a>
+        <a href="/html/rating.html" class="tabs">Rate Us</a>
+        <a href="/html/adddata.html" class="tabs">Add Data</a>
+        <a href="index.html" class="tabs">About Us</a>
+        <a href="index.html" class="tabs">Project Info</a>
+        <a href="/html/category.html" class="tabs">Categories</a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="categories" class="gallery">
+    <div class="gallery-container">
+      <img id="render" class="gallery-item gallery-item-1" data-index="1" onclick="open1('Animation creation')"
+        alt="Rendering Apps">
+      <img id="browser" class="gallery-item gallery-item-2" data-index="2" onclick="open1('Browser')" alt="Browsers">
+      <img id="media" class="gallery-item gallery-item-3" data-index="3" onclick="open1('Media players')"
+        alt="Media Players">
+      <img id="MOS" class="gallery-item gallery-item-4" data-index="4" onclick="open1('Mobile operating system')" alt="Mobile OSs">
+      <img id="office" class="gallery-item gallery-item-5" data-index="5" onclick="open1('Office software')"
+        alt="Office Softwares">
+      <img id="photo" class="gallery-item gallery-item-6" data-index="6" onclick="open1('Photoediting')"
+        alt="Photoediting Softwares">
+      <img id="PCOS" class="gallery-item gallery-item-7" data-index="7" onclick="open1('Pc operating system')"
+        alt="PC Operating Systems">
+      <img id="lang" class="gallery-item gallery-item-8" data-index="8" onclick="open1('Programming language')"
+        alt="Programming Languages">
+      <img id="video" class="gallery-item gallery-item-9" data-index="9" onclick="open1('Videoediting')"
+        alt="Video Editing Softwares">
+    </div>
+    <div class="gallery-controls"></div>
+  </div>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBL2e_o6UAo5h81-etBgLAvj9cWWZ6rKZw",
+      authDomain: "open-source-3b95f.firebaseapp.com",
+      databaseURL: "https://open-source-3b95f.firebaseio.com",
+      projectId: "open-source-3b95f",
+      storageBucket: "open-source-3b95f.appspot.com",
+      messagingSenderId: "1086411047442",
+      appId: "1:1086411047442:web:99204dbb17b2a0005c4ecb",
+      measurementId: "G-ZYJEM8T999",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <script src="/js/carousel.js"></script>
+  <script src="/js/category.js"></script>
+
+
+
+</body>
+
+</html>

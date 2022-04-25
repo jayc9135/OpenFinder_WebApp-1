@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Open Finder will help you find open source alternatives to the paid softwares" />
+  <meta name="keywords" content="open, open source, paid, software, free" />
+
+  <link href="https://fonts.googleapis.com/css?family=Balsamiq Sans" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+  <link rel="stylesheet" href="/css/opensource.css" />
+
+  <title>Open Finder</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <a href="index.html">
+          <img alt="logo" id="logo" /></a>
+        <a href="/html/rating.html" class="tabs">Rate Us</a>
+        <a href="/html/adddata.html" class="tabs">Add Data</a>
+        <a href="#About_Us" class="tabs">About Us</a>
+        <a href="#Project_Info" class="tabs">Project Info</a>
+        <a href="/html/category.html" class="tabs">Categories</a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="welcome">
+    <p id="project_name">Open Finder</p>
+    <p id="project_description">
+      Open Finder will help you find open source alternatives to the paid
+      softwares
+    </p>
+  </div>
+
+  <div id="Project_Info">
+    <h3 class="headings">PROJECT INFO</h3>
+    <h4 class="headings">Our main goals to achieve</h4>
+    <ul>
+      <li class="goals">
+        <img id="piracy" alt="piracy" class="pngs" />
+        <h4>Reduce Piracy</h4>
+        Software piracy is the unauthorized installation or illegal copying of
+        software. It affects everyone. Prices for software increase, because
+        developers need to make a living. People who work with software also
+        charge more to pay for the extra costs. These costs are passed on to
+        the public, which pays more to benefit from what the software
+        produces.
+      </li>
+      <li class="goals">
+        <img id="open-source" alt="open-source" class="pngs" />
+        <h4>Encourage Open-Source</h4>
+        The term open source refers to something people can modify and share
+        because its design is publicly accessible. The term originated in the
+        context of software development to designate a specific approach to
+        creating computer programs. Today, however, "open source" designates a
+        broader set of values—what we call "the open source way."
+      </li>
+    </ul>
+  </div>
+
+  <div id="About_Us">
+    <h3 class="headings">ABOUT US</h3>
+    <h4 class="headings">The Team</h4>
+    <ul id="list2">
+      <li class="members">
+        <h4>Jayesh Bafana</h4>
+        > Web Designing <br>
+        > Database
+      </li>
+      <li class="members">
+        <h4>Diptesh Chaudhari</h4>
+        > Database <br>
+        > Research
+      </li>
+      <li class="members">
+        <h4>Jay Chaudhari</h4>
+        > Web Development <br>
+        > Database
+      </li>
+    </ul>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  <script id="Firebase_Initialise">
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBL2e_o6UAo5h81-etBgLAvj9cWWZ6rKZw",
+      authDomain: "open-source-3b95f.firebaseapp.com",
+      databaseURL: "https://open-source-3b95f.firebaseio.com",
+      projectId: "open-source-3b95f",
+      storageBucket: "open-source-3b95f.appspot.com",
+      messagingSenderId: "1086411047442",
+      appId: "1:1086411047442:web:99204dbb17b2a0005c4ecb",
+      measurementId: "G-ZYJEM8T999",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <script src="/js/opensource.js"></script>
+</body>
+
+</html>

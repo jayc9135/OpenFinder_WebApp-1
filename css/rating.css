@@ -1,0 +1,40 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    border: #052c17 3px solid;
+    border-radius: 10px;
+}
+
+#navbar{
+    margin-top: 15px;
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    height: 90px;
+    position: sticky;
+}
+
+#navbar ul{
+    overflow: auto;
+} 
+
+.tabs{
+    color: black;
+    margin-inline: 15px;
+    float: right;
+    list-style: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tabs:hover{
+    background-color: rgb(189, 180, 180);
+}
